@@ -1,0 +1,67 @@
+
+body{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  height:600px;
+  background:Dodgerblue;
+}
+.wrapper
+{
+background:white;
+width:350px;
+border-radius:15px;
+padding: 10px;
+box-shadow: 3px 3px 80px 1px black;
+}
+header
+{
+text-align: center;
+padding-top: 17px;
+font-family: 'Poppins' sans-serif;
+font-weight: bold;
+font-size: 20px;
+}
+.quote{
+    padding:20px 13px;
+    font-size:14px;
+
+}
+.author
+{
+    font-size:11px;
+    float:right;
+    padding-right: 10px;
+    font-family: 'monospace',sans-serif;
+    display:block;
+}
+
+
+.newQuote
+{
+    float:right;
+    border-radius: 15px;
+    background: dodgerblue;
+    color:white;
+    border:dodgerblue;
+    height: 30px;
+    
+}
+.newQuote:hover{
+    border: solid 1px dodgerblue;
+    background-color: white;
+    color:dodgerblue;
+}
+.social
+{
+border-radius: 50%;
+height: 30px;
+border:solid 1px dodgerblue;
+background-color: dodgerblue;
+color:white;
+}
+.social:hover
+{
+color:dodgerblue;
+background-color: white;
+}
